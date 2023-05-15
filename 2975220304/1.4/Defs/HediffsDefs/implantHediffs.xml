@@ -1,0 +1,47 @@
+<Defs>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>mostlytraits_installed_reloader</defName>
+		
+		<label>Reloader</label>
+		<description>An installed reloader</description>
+		<descriptionHyperlinks>
+			<ThingDef>mostlytraits_reloader</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<statOffsets>
+					<mostlytraits_ranged_cooldown>-0.25</mostlytraits_ranged_cooldown>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+				</statFactors>
+
+
+			</li>
+		</stages>
+		<spawnThingOnRemoved>mostlytraits_reloader</spawnThingOnRemoved>
+	</HediffDef>
+
+
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>mostlytraits_installed_exoskeleton</defName>
+		<label>Lifting Exoskeleton</label>
+		<description>An installed exoskeleton</description>
+		<descriptionHyperlinks>
+			<ThingDef>mostlytraits_exoskeleton</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+					<CarryingCapacity>45</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>mostlytraits_exoskeleton</spawnThingOnRemoved>
+	</HediffDef>
+	
+	
+</Defs>

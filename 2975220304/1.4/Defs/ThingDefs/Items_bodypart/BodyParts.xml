@@ -1,0 +1,105 @@
+<Defs>
+	<ThingDef ParentName="BodyPartProstheticBase">
+	<defName>mostlytraits_reloader</defName>
+		<label>Reloader</label>
+	<description>A small piece of equipment aside of the chest that helps to reload. \nMaking it an implant to ensure stability during the battle.</description>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(100,100,100)</color>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>450</MarketValue>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		<soundWorking>Recipe_Smith</soundWorking>
+		</recipeMaker>
+
+		</ThingDef>
+
+
+
+
+
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>mostlytraits_exoskeleton</defName>
+		<label>Lifting exoskeleton</label>
+		<description>An powered exoskeleton that increases the capability of moving and carrying, but it can't provide any protection to any attacks</description>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(120,110,100)</color>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<MarketValue>750</MarketValue>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>2</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>50</Plasteel>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Smith</soundWorking>
+		</recipeMaker>
+	</ThingDef>
+</Defs>
+	
+	

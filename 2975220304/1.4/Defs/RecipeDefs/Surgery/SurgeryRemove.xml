@@ -1,0 +1,35 @@
+<Defs>
+
+
+<RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>mostlytraits_remove_reloader</defName>
+    <label>remove reloader</label>
+    <description>Remove the reloader</description>
+    <descriptionHyperlinks>
+      <ThingDef>mostlytraits_reloader</ThingDef>
+      <HediffDef>mostlytraits_installed_reloader</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing reloader</jobString>
+    <removesHediff>mostlytraits_installed_reloader</removesHediff>
+  </RecipeDef>
+
+
+
+
+
+
+
+
+<RecipeDef ParentName="SurgeryRemoveImplantBase">
+	<defName>mostlytraits_remove_exoskeleton</defName>
+		<label>remove exoskeleton</label>
+		<description>Remove the exoskeleton</description>
+		<descriptionHyperlinks>
+		<ThingDef>mostlytraits_exoskeleton</ThingDef>
+		<HediffDef>mostlytraits_installed_exoskeleton</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing exoskeleton</jobString>
+		<removesHediff>mostlytraits_installed_exoskeleton</removesHediff>
+</RecipeDef>
+
+</Defs>

@@ -1,0 +1,254 @@
+<Defs>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>mostlytraits_EMPdevice</defName>
+		<label>Small-scale EMP device</label>
+		<description>An one-time use EMP device, which is basically just a larger EMP grenade, make it a ultility so the person doesn't need to hold it. Stun mechanoid by 32 seconds (only if 0 emp resistance)</description>
+		<techLevel>Industrial</techLevel>
+		
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>12</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<startWickHitPointsPercent>1</startWickHitPointsPercent>
+				<chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+				<explosionEffect>ExtinguisherExplosion</explosionEffect>
+				<damageAmountBase>64</damageAmountBase>
+				<wickTicks>1</wickTicks>
+				<destroyThingOnExplosionSize>9000</destroyThingOnExplosionSize>
+			
+			</li>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<hotKey>Misc5</hotKey>
+				<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+				<chargeNoun>launcher</chargeNoun>
+				<replenishAfterCooldown>false</replenishAfterCooldown>
+			</li>
+
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_FirefoamPop</verbClass>
+				<label>Activate EMP device</label>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>false</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+				<onlyManualCast>True</onlyManualCast>
+			
+			</li>
+		</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>310</displayPriority>
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>80</Steel>
+		</costList>
+		<graphicData>
+			<texPath>Things/EMPDevice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Flammability>0</Flammability>
+			<SmokepopBeltRadius>3</SmokepopBeltRadius>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>mostlytraits_Chest</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>EMPBeltPop</li>
+			</tags>
+		</apparel>
+		<allowedArchonexusCount>1</allowedArchonexusCount>
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+
+
+
+
+
+
+
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>mostlytraits_Advanced_EMPdevice</defName>
+		<label>Advanced EMP device</label>
+		<description>A small utility equipment with a high-energy source installed.This unit has improved launcher and energy core that can slightly increase the affected area and intensity of the energy. Upon activation, it releases all of its energy and generates an EMP shockwave in the surrounding area. It then requires 2.5 days of charging before it can be used again. Stun mechanoid by 40 seconds (only if 0 emp resistance)</description>
+		<techLevel>Industrial</techLevel>
+
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>18</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<startWickHitPointsPercent>1</startWickHitPointsPercent>
+				<chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+				<explosionEffect>ExtinguisherExplosion</explosionEffect>
+				<damageAmountBase>80</damageAmountBase>
+				<wickTicks>1</wickTicks>
+				<destroyThingOnExplosionSize>905</destroyThingOnExplosionSize>
+
+			</li>
+			<li Class="CompProperties_Reloadable">
+				<maxCharges>1</maxCharges>
+				<hotKey>Misc5</hotKey>
+				<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+				<chargeNoun>launcher</chargeNoun>
+				<replenishAfterCooldown>true</replenishAfterCooldown>
+				<baseReloadTicks>150000</baseReloadTicks>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_FirefoamPop</verbClass>
+				<label>Activate EMP device</label>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>false</targetable>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+				<onlyManualCast>True</onlyManualCast>
+
+			</li>
+		</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<displayPriority>310</displayPriority>
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<mostlytraits_EMPdevice>1</mostlytraits_EMPdevice>
+			<Steel>25</Steel>
+			<Plasteel>50</Plasteel>
+		</costList>
+		<graphicData>
+			<texPath>Things/EMPPack</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>0.75</Mass>
+			<Flammability>0</Flammability>
+			<SmokepopBeltRadius>10</SmokepopBeltRadius>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>mostlytraits_Chest</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>EMPBeltPop</li>
+			</tags>
+		</apparel>
+		<allowedArchonexusCount>1</allowedArchonexusCount>
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+	
+	
+</Defs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

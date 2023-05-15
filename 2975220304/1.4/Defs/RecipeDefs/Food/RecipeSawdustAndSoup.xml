@@ -1,0 +1,354 @@
+<Defs>
+
+	<RecipeDef>
+		<defName>makesawdust</defName>
+		<label>make sawdust</label>
+		<description>Make sawdust</description>
+<descriptionHyperlinks>
+			<ThingDef>mostlytraits_sawdust</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Making sawdust</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<workAmount>250</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<mostlytraits_sawdust>2</mostlytraits_sawdust>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<displayPriority>10</displayPriority>
+		<recipeUsers>
+			<li>TableMachining</li>
+			<li>CraftingSpot</li>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<RecipeDef>
+		<defName>makesawdustx5</defName>
+		<label>make some sawdust x5</label>
+		<description>Make some sawdust</description>
+		<jobString>Making sawdust</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<mostlytraits_sawdust>10</mostlytraits_sawdust>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<displayPriority>11</displayPriority>
+		<recipeUsers>
+			<li>TableMachining</li>
+			<li>CraftingSpot</li>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookBasicSoup</defName>
+		<label>cook basic soup</label>
+		<description>cook some basic soup, just simply boil the ingredient</description>
+		<jobString>Cooking soup</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>150</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.15</count>
+			</li>
+		</ingredients>
+		<products>
+			<mostlytraits_basic_soup>1</mostlytraits_basic_soup>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>77</displayPriority>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookBasicSoupx5</defName>
+		<label>cook basic soup x5</label>
+		<description>cook a large bucket of basic soup, just simply boil the ingredient</description>
+		<jobString>Cooking soup</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<workAmount>750</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>0.65</count>
+			</li>
+		</ingredients>
+		<products>
+			<mostlytraits_basic_soup>5</mostlytraits_basic_soup>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>78</displayPriority>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookSawdustSoup</defName>
+		<label>cook soup with sawdust</label>
+		<description>cook some soup and add some sawdust into it</description>
+		<jobString>Cooking soup</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<descriptionHyperlinks>
+			<RecipeDef>makesawdust</RecipeDef>
+		</descriptionHyperlinks>
+		<productHasIngredientStuff>false</productHasIngredientStuff>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>mostlytraits_basic_soup</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>mostlytraits_sawdust</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<mostlytraits_sawdust_soup>1</mostlytraits_sawdust_soup>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>79</displayPriority>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+
+
+
+
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookSawdustSoupx5</defName>
+		<label>cook soup with sawdust x5</label>
+		<description>Cook a large bucket of soup, of course, more sawdust</description>
+<descriptionHyperlinks>
+			<ThingDef>mostlytraits_sawdust</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Cooking soup</jobString>
+		<productHasIngredientStuff>false</productHasIngredientStuff>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>mostlytraits_basic_soup</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>mostlytraits_sawdust</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<mostlytraits_sawdust_soup>5</mostlytraits_sawdust_soup>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<displayPriority>80</displayPriority>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+</Defs>

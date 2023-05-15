@@ -1,0 +1,63 @@
+<Patch>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/BodyDef[defName = "Human"]/corePart/parts</xpath>
+
+			<value>
+
+<li>
+	<def>mostlytraits_Chest</def>
+	<coverage>0</coverage>
+	<height>Bottom</height>
+	<groups>
+		<li>mostlytraits_Chest</li>
+	</groups>
+</li>
+			</value>
+		
+	</Operation>
+
+
+
+
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs</xpath>
+
+			<value>
+
+<BodyPartDef>
+    <defName>mostlytraits_Chest</defName>
+    <label>chest</label>
+    <conceptual>true</conceptual>
+  </BodyPartDef>
+
+	</value>
+		
+	</Operation>
+
+
+
+
+
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs</xpath>
+
+			<value>
+
+<BodyPartGroupDef>
+    <defName>mostlytraits_Chest</defName>
+    <label>chest</label>
+    <listOrder>48</listOrder>
+  </BodyPartGroupDef>
+
+	</value>
+		
+	</Operation>
+
+
+
+
+
+
+
+</Patch>

@@ -1,0 +1,100 @@
+<Defs>
+	<ThoughtDef>
+		<defName>mostlytraits_foodie_atesimplemeal</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<replaceThoughts>
+			<li>AteFineMeal</li>
+			<li>mostlytraits_foodie_atefinemeal</li>
+			<li>mostlytraits_foodie_atesimplemeal</li>
+			<li>AteLavishMeal</li>
+		</replaceThoughts>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>ate simple meal</label>
+				<description>simple, but not bad</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+				</stages>
+	</ThoughtDef>
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_foodie_atefinemeal</defName>
+		<durationDays>0.6</durationDays>
+		<stackLimit>1</stackLimit>
+		<replaceThoughts>
+			<li>AteFineMeal</li>
+			<li>mostlytraits_foodie_atelavishmeal</li>
+			<li>mostlytraits_foodie_atesimplemeal</li>
+			<li>AteLavishMeal</li>
+		</replaceThoughts>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>ate fine meal</label>
+				<description>Yum yum, that was the thing I called "meal"</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_foodie_atelavishmeal</defName>
+		<durationDays>0.75</durationDays>
+		<stackLimit>1</stackLimit>
+		<replaceThoughts>
+			<li>AteFineMeal</li>
+			<li>mostlytraits_foodie_atefinemeal</li>
+			<li>mostlytraits_foodie_atesimplemeal</li>
+			<li>AteLavishMeal</li>
+		</replaceThoughts>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>ate lavish meal</label>
+				<description>That was amazing. It nourished my body and my soul. There is no phrase in the world that can express my feeling right now, only: HOLY ****</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+		<defName>AateSawdustSoup</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>1</stackLimit>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>ate something terrible</label>
+				<description>I just managed to swallow the last sip of it, that thing was......hard to say...you can't use "taste" to describe it, but at least it can support me to endure for a little while longer. When will these days be over?</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+	
+	
+	
+	
+
+</Defs>

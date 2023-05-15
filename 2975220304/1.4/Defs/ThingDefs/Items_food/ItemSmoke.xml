@@ -1,0 +1,73 @@
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>mostlytraits_high_smoke</defName>
+    <label>High-Smoke</label>
+<description>A easy to make smoke, the recipe is found on a flyer on the ground which is already hard to read  \n"Would you like a wonderful trip to the dream world? Try the high smoke and begin your adventure! We don't take any responsibility to the problem of memory loss and mental break due to the bad experience" \n\n ---- From a mestery piece of flyer</description>
+<possessionCount>10</possessionCount>
+  <graphicData>
+      <texPath>Things/highsmoke</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>350</WorkToMake>
+      <MarketValue>8.5</MarketValue>
+      <Mass>0.02</Mass>
+      <DeteriorationRate>5</DeteriorationRate>
+      <Flammability>1</Flammability>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+      <baseIngestTicks>500</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>None</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound> 
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,1.3,0.08)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.45,1.3,0.08)</offset>
+        </east>
+        <south>
+          <offset>(0.27,1.3,0.08)</offset>
+        </south>
+        <west>
+          <offset>(-0.50,1.3,0.08)</offset>
+          <flip>true</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+<li Class="mostlytraits.IngestionOutcomeDoer_end_inspiration"/> 
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>mostlytraits_high_smoke_hediff</hediffDef>
+          <severity>0.1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+    </recipeMaker>
+    <costList>
+      <SmokeleafLeaves>2</SmokeleafLeaves>
+	<mostlytraits_sawdust>2</mostlytraits_sawdust>
+	<PsychoidLeaves>4</PsychoidLeaves>
+    </costList>
+    <allowedArchonexusCount>50</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,80 @@
+<Defs>
+
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>mostlytraits_install_reloader</defName>
+    <label>install reloader</label>
+    <description>Install a reloader</description>
+    <descriptionHyperlinks>
+      <ThingDef>mostlytraits_reloader</ThingDef>
+    </descriptionHyperlinks>
+    <workAmount>1800</workAmount>
+    <jobString>Installing</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>mostlytraits_reloader</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>mostlytraits_reloader</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>mostlytraits_installed_reloader</addsHediff>
+	<skillRequirements>
+      <Medicine>4</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
+
+
+
+
+
+
+<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>mostlytraits_install_exoskeleton</defName>
+		<label>install lifting exoskeleton</label>
+		<description>Install a lifting exoskeleton</description>
+		<descriptionHyperlinks>
+			<ThingDef>mostlytraits_exoskeleton</ThingDef>
+		</descriptionHyperlinks>
+		<workAmount>2500</workAmount>
+		<jobString>Installing lifting exoskeleton</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>mostlytraits_exoskeleton</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>mostlytraits_exoskeleton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>mostlytraits_installed_exoskeleton</addsHediff>
+		<skillRequirements>
+			<Medicine>6</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+
+
+
+
+</Defs>
