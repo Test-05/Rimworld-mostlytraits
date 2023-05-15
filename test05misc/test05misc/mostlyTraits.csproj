@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83C3F0AC-153D-44F2-B4FD-B65616AE8252}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test05misc</RootNamespace>
+    <AssemblyName>test05misc</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>D:\STEAM\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\STEAM\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:\STEAM\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\STEAM\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Building_Quality.cs" />
+    <Compile Include="IngestionOutcomeDoer_end_inspiration.cs" />
+    <Compile Include="Thought_different_medical approach.cs" />
+    <Compile Include="Thought_bloodthirst.cs" />
+    <Compile Include="Interaction_complain.cs" />
+    <Compile Include="Interaction_DeepTalk.cs" />
+    <Compile Include="Interaction_comfort.cs" />
+    <Compile Include="EMPdevice_disposal.cs" />
+    <Compile Include="Thought_Hardwork_Is_Night.cs" />
+    <Compile Include="Thought_Hardwork_Is_Day.cs" />
+    <Compile Include="Thought_Epihany_Is_Night.cs" />
+    <Compile Include="Thought_Shaky_Is_Night.cs" />
+    <Compile Include="Execption_Offsets.cs" />
+    <Compile Include="Thought_Skill_Opinion_Offset.cs" />
+    <Compile Include="Tend_Quality_Offset.cs" />
+    <Compile Include="Failed_Surgery.cs" />
+    <Compile Include="miscStats.cs" />
+    <Compile Include="Weapon_Cooldown.cs" />
+    <Compile Include="Personality_Opinion_Offsets.cs" />
+    <Compile Include="Ineraction_Social_Fight.cs" />
+    <Compile Include="Thought_after_meal.cs" />
+    <Compile Include="miscThoughts.cs" />
+    <Compile Include="Interaction_Insult.cs" />
+    <Compile Include="Interaction_KindWord.cs" />
+    <Compile Include="Ineraction_ChitChat.cs" />
+    <Compile Include="miscJoyKindDefs.cs" />
+    <Compile Include="miscTraits.cs" />
+    <Compile Include="miscHediffDefs.cs" />
+    <Compile Include="spectrum_trait_mass.cs" />
+    <Compile Include="Skill_Decay_Factor.cs" />
+    <Compile Include="when_drafted.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
