@@ -1,0 +1,57 @@
+<Defs>
+
+<InteractionDef>
+    <defName>mostlytrait_comfort</defName>
+    <label>comfort</label>
+    <workerClass>mostlytraits.InteractionWorker_comfort</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+    <initiatorThought>mostlytraits_comfort_initiator_thought_mood</initiatorThought>
+    <initiatorXpGainSkill>Social</initiatorXpGainSkill>
+    <initiatorXpGainAmount>50</initiatorXpGainAmount>
+    <recipientThought>mostlytraits_comfort_thought</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry(p=0.2)->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+        <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
+        <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+	<li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that everything will be fine.</li>
+
+        <li>talkedabout(p=4)->chatted about</li>
+        <li>talkedabout->spoke about</li>
+        <li>talkedabout->talked about</li>
+
+        <li>commentedabout->shared a story about</li>
+        <li>commentedabout->said a word about</li>
+        <li>commentedabout->told a joke about</li>
+
+
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+
+
+
+
+
+
+
+	<InteractionDef>
+		<defName>mostlytrait_complain</defName>
+		<label>complain</label>
+		<workerClass>mostlytraits.Interaction_complain</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+		<initiatorThought>mostlytraits_complain_thought</initiatorThought>
+		<initiatorXpGainSkill>Social</initiatorXpGainSkill>
+		<initiatorXpGainAmount>10</initiatorXpGainAmount>
+		<recipientThought>Chitchat</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				
+				<li>r_logentry ->[INITIATOR_nameDef] complain about [TalkTopicLight] with [RECIPIENT_nameDef].</li>
+			
+
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+</Defs>
