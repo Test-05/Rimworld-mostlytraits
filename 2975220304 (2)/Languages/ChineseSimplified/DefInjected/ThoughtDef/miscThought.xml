@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<mostlytraits_smoke_bad_mood.stages.0.label>做了个噩梦</mostlytraits_smoke_bad_mood.stages.0.label>
+  <mostlytraits_smoke_bad_mood.stages.0.description>龟龟，刚刚那梦有点吓人，还好持续时间不长</mostlytraits_smoke_bad_mood.stages.0.description>
+
+  <mostlytraits_smoke_good_mood.stages.0.label>做了个美梦</mostlytraits_smoke_good_mood.stages.0.label>
+  <mostlytraits_smoke_good_mood.stages.0.description>刚刚的梦真棒，有点想再整一次</mostlytraits_smoke_good_mood.stages.0.description>
+
+
+  <!--<mostlytraits_failed_surgery.stages.0.label>失败的手术</mostlytraits_failed_surgery.stages.0.label>-->
+  <!--<mostlytraits_failed_surgery.stages.0.description>我已经倾尽了我的所能，为什么仍然失败了？是哪个地方出了问题？我能当好一名医生吗？我只会让人失望</mostlytraits_failed_surgery.stages.0.description>-->
+
+  <!--<mostlytraits_surgery_death.stages.0.label>灾难性手术失败</mostlytraits_surgery_death.stages.0.label>-->
+  <!--<mostlytraits_surgery_death.stages.0.description>这全是因为我</mostlytraits_surgery_death.stages.0.description>-->
+
+  <!--<mostlytraits_veteran_ranged_weapon.stages.0.label>持有远程武器</mostlytraits_veteran_ranged_weapon.stages.0.label>-->
+  <!--<mostlytraits_veteran_ranged_weapon.stages.0.description>你永远可以相信手中这把又黑又粗的喷火大铁棒子</mostlytraits_veteran_ranged_weapon.stages.0.description>-->
+
+
+</LanguageData>

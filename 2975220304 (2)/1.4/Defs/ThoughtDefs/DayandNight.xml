@@ -1,0 +1,113 @@
+<Defs>
+	<ThoughtDef>
+		<defName>mostlytraits_hardwork_at_day_thought</defName>
+		<workerClass>mostlytraits.ThoughtWorker_hardwork_Is_Day</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+			<label>Beginning of the day</label>
+				<description>I hope everything goes well today</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+				
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>hard_work05</li>
+		</requiredTraits>
+
+	</ThoughtDef>
+
+
+
+
+
+
+<ThoughtDef>
+		<defName>mostlytraits_hardwork_at_night_thought</defName>
+		<workerClass>mostlytraits.ThoughtWorker_hardwork_Is_Night</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+			<label>End of the day</label>
+				<description>Okay, another day passed, maybe I can take a breath now</description>
+				<baseMoodEffect>8</baseMoodEffect>
+
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>hard_work05</li>
+		</requiredTraits>
+
+	</ThoughtDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_shaky_thought</defName>
+		<workerClass>mostlytraits.ThoughtWorker_Shaky</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label> </label>
+				<description> </description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>mostlytraits_shaky</li>
+		</requiredTraits>
+
+	</ThoughtDef>
+
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_epiphany_at_night_thought</defName>
+
+		<workerClass>mostlytraits.ThoughtWorker_Epihany_Night</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>Calm</label>
+				<description>Nighttime calms me down</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>mostlytrait_epiphany</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	
+	
+	
+	
+	<ThoughtDef>
+		<defName>empdevice</defName>
+
+		<workerClass>mostlytraits.ThoughtWorker_EMPdevice</workerClass>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label> </label>
+				<description> </description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+
+	</ThoughtDef>
+
+</Defs>

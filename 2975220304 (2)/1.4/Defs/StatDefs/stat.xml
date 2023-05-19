@@ -1,0 +1,131 @@
+<Defs>
+
+<StatDef>
+		<defName>mostlytraits_ranged_cooldown</defName>
+		<label>Ranged weapon cooldown factor</label>
+		<labelForFullStatList>Ranged weapon cooldown factor</labelForFullStatList>
+		<description>Additional multiplier to the original cooldown time</description>
+		<category>PawnCombat</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<toStringStyleUnfinalized>PercentOne</toStringStyleUnfinalized>
+		<displayPriorityInCategory>4040</displayPriorityInCategory>
+	</StatDef>
+
+
+
+
+<StatDef>
+		<defName>mostlytraits_melee_cooldown</defName>
+		<label>Melee attack cooldown factor</label>
+		<labelForFullStatList>Melee attack cooldown factor</labelForFullStatList>
+		<description>Additional multiplier to the original cooldown time</description>
+		<category>PawnCombat</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<toStringStyleUnfinalized>PercentOne</toStringStyleUnfinalized>
+		<displayPriorityInCategory>4039</displayPriorityInCategory>
+	</StatDef>
+
+
+
+
+
+
+
+
+ <StatDef>
+    <defName>mostlytraits_chitchat_chance</defName>
+    <label>chitchat intention</label>
+    <description>How this pawn is willing to start a chitchat with others</description>
+    <category>PawnSocial</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+	<neverDisabled>true</neverDisabled>
+    <displayPriorityInCategory>1905</displayPriorityInCategory>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Social</skill>
+        <baseValue>0.9</baseValue>
+        <bonusPerLevel>0.01</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+  </StatDef>
+
+
+
+
+ <StatDef>
+    <defName>mostlytraits_chitchat_receive_chance</defName>
+    <label>chitchat receive chance</label>
+    <description>The probability of this person receiving chitchat</description>
+    <category>PawnSocial</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+	<neverDisabled>true</neverDisabled>
+    <displayPriorityInCategory>1910</displayPriorityInCategory>
+  </StatDef>
+
+
+
+
+ <StatDef>
+    <defName>mostlytraits_insult_chance</defName>
+    <label>insult intention</label>
+    <description>How this pawn is willing to insult others</description>
+    <category>PawnSocial</category>
+	<alwaysHide>true</alwaysHide>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+	<neverDisabled>true</neverDisabled>
+    <displayPriorityInCategory>1915</displayPriorityInCategory>
+  </StatDef>
+
+
+
+
+<StatDef>
+    <defName>mostlytraits_kindword_receive_chance</defName>
+    <label>kindword receive chance</label>
+    <description>The probability of this pawn receiving kindword</description>
+    <category>PawnSocial</category>
+	<alwaysHide>true</alwaysHide>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+	<neverDisabled>true</neverDisabled>
+    <displayPriorityInCategory>1915</displayPriorityInCategory>
+  </StatDef>
+
+
+
+
+
+
+
+<StatDef>
+    <defName>mostlytraits_kindword_chance</defName>
+    <label>kindword intention</label>
+    <description>How this pawn is willing to praise others</description>
+    <category>PawnSocial</category>
+	<alwaysHide>true</alwaysHide>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+	<neverDisabled>true</neverDisabled>
+    <displayPriorityInCategory>1915</displayPriorityInCategory>
+  </StatDef>
+
+
+
+
+
+
+
+
+</Defs>

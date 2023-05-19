@@ -1,0 +1,120 @@
+<Defs>
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_comfort_initiator_thought_mood</defName>
+		<durationDays>1.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>comforted someone</label>
+				<description>glad to see someone feels better</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+    <defName>mostlytraits_comfort_thought</defName>
+	<showBubble>true</showBubble>
+	<thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>5</stackLimit>
+	<maxCumulatedOpinionOffset>20</maxCumulatedOpinionOffset>
+	<nullifyingTraits>
+	  <li>Psychopath</li>
+    </nullifyingTraits>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>encourged me</label>
+        <baseOpinionOffset>4</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>mostlytraits_comfort_mood</thoughtToMake>
+  </ThoughtDef>
+
+
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_comfort_mood</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.76</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>solaced</label>
+				<description>I am feeling encourged, life is not that bad</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+
+
+
+
+
+
+
+
+
+	<ThoughtDef>
+		<defName>mostlytraits_complain_thought</defName>
+		<showBubble>true</showBubble>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>30</durationDays>
+		<stackLimit>5</stackLimit>
+		<maxCumulatedOpinionOffset>20</maxCumulatedOpinionOffset>
+<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>listened to my complaints</label>
+				<baseOpinionOffset>2</baseOpinionOffset>
+			</li>
+		</stages>
+		<thoughtToMake>mostlytraits_complain_mood</thoughtToMake>
+	</ThoughtDef>
+	
+	
+	
+	
+	
+	
+		<ThoughtDef>
+		<defName>mostlytraits_complain_mood</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.83</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+			<li>
+				<label>Emotional dumping</label>
+				<description>Finally someone is willing to listen to my complaints</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

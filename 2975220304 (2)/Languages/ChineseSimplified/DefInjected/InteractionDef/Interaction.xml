@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<mostlytrait_comfort.label>安抚</mostlytrait_comfort.label>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.0>r_logentry(p=0.2)->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][TalkTopicLight].</mostlytrait_comfort.logRulesInitiator.rulesStrings.0>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.1>r_logentry(p=0.2)->[INITIATOR_nameDef]与[RECIPIENT_nameDef][talkedabout][TalkTopicLight].</mostlytrait_comfort.logRulesInitiator.rulesStrings.1>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.2>r_logentry(p=0.5)->[INITIATOR_nameDef]对[RECIPIENT_nameDef]说了一些关于[TalkTopicLight][commentedabout].</mostlytrait_comfort.logRulesInitiator.rulesStrings.2>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef]鼓励[RECIPIENT_nameDef]一切都会好起来的</mostlytrait_comfort.logRulesInitiator.rulesStrings.3>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.4>talkedabout(p=4)->聊到</mostlytrait_comfort.logRulesInitiator.rulesStrings.4>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.5>talkedabout->说到</mostlytrait_comfort.logRulesInitiator.rulesStrings.5>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.6>talkedabout->讲到</mostlytrait_comfort.logRulesInitiator.rulesStrings.6>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.7>commentedabout->的故事</mostlytrait_comfort.logRulesInitiator.rulesStrings.7>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.8>commentedabout->的事儿</mostlytrait_comfort.logRulesInitiator.rulesStrings.8>-->
+  <!--<mostlytrait_comfort.logRulesInitiator.rulesStrings.9>commentedabout->的笑话</mostlytrait_comfort.logRulesInitiator.rulesStrings.9>-->
+
+  <!--<mostlytrait_complain.label>抱怨</mostlytrait_complain.label>-->
+  <!--<mostlytrait_complain.logRulesInitiator.rulesStrings.0>r_logentry ->[INITIATOR_nameDef]对[RECIPIENT_nameDef]喋喋不休地抱怨[TalkTopicLight].</mostlytrait_complain.logRulesInitiator.rulesStrings.0>-->
+
+
+</LanguageData>
