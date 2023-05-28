@@ -13,7 +13,7 @@ namespace mostlytraits
             DefOfHelper.EnsureInitializedInCtor(typeof(miscTraits));
         }
 #pragma warning disable 0649
-        public static TraitDef mostlytrait_defender;
+        public static TraitDef mostlytrait_journalist;
 
         public static TraitDef blind_psy;
 
@@ -56,6 +56,9 @@ namespace mostlytraits
         public static TraitDef mostlytraits_accoffset;
 
         public static TraitDef mostlytraits_shaky;
+
+        public static TraitDef mostlytraits_stinky;
+
 
 #pragma warning restore 0649
     }

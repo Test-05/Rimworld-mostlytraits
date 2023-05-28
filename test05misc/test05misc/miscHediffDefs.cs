@@ -45,6 +45,18 @@ namespace mostlytraits
         public static HediffDef mostlytraits_blood_thirst_hurt_hediff;
 
         public static HediffDef mostlytraits_blood_thirst_hediff;
+
+        public static HediffDef mostlytraits_slacked;
+
+        public static HediffDef mostlytraits_slacking;
+
+        public static HediffDef mostlytraits_passion_working_speed;
+
+        public static HediffDef mostlytraits_slack_caught;
+
+        public static HediffDef mostlytraits_mood_based_workspeed_offset;
+
+     
     }
 }
 

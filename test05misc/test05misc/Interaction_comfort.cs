@@ -5,26 +5,58 @@ namespace mostlytraits
 
 	public class InteractionWorker_comfort : InteractionWorker
 	{
-		// Token: 0x06000003 RID: 3 RVA: 0x0000208C File Offset: 0x0000028C
+
 		public override float RandomSelectionWeight(Pawn initiator, Pawn recipient)
 		{
-			float num = 0;
-			float offset = recipient.needs.mood.CurLevel;
-			if (initiator.story.traits.HasTrait(miscTraits.mostlytraits_empathetic))
+		
+			
+			if (initiator.RaceProps.Humanlike  && initiator.story.traits.HasTrait(miscTraits.mostlytraits_empathetic))
 			{
-				if (offset <= 0.6 && offset > 0.35)
-                {
-					num = (1 - offset) * 10f;
-                }
-				else if (offset <= 0.35)
-                {
-					num = (1 - offset) * 20f;
-				}
-
+				float num= this.moodCurve.Evaluate(recipient.needs.mood.CurLevel);
+			
+				return num;
 			}
 
 
-				return num;
+			return 0f;
 		}
+
+
+
+		public SimpleCurve moodCurve = new SimpleCurve
+		{
+			{
+				new CurvePoint(0f, 50f),
+				true
+			},
+			{
+				new CurvePoint(0.1f, 50f),
+				true
+			},
+			{
+				new CurvePoint(0.2f, 30f),
+				true
+			},
+			{
+				new CurvePoint(0.3f, 10f),
+				true
+			},
+			{
+				new CurvePoint(0.4f, 0.5f),
+				true
+			},
+			{
+				new CurvePoint(0.5f, 0.1f),
+				true
+			},
+			{
+				new CurvePoint(0.6f, 0f),
+				true
+			},
+		};
+
+
+
+
 	}
 }

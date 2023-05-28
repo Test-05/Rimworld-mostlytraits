@@ -14,5 +14,6 @@ namespace mostlytraits
         public static StatDef mostlytraits_insult_chance;
         public static StatDef mostlytraits_kindword_receive_chance;
         public static StatDef mostlytraits_kindword_chance;
+        public static StatDef mostlytraits_carry_mass_offset;
     }
 }

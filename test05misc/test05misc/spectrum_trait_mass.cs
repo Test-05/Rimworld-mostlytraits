@@ -32,7 +32,7 @@ namespace mostlytraits
 			{
 
 
-				if (p.story.traits.HasTrait(miscTraits.MassOffset) && num > 0)
+				/*if (p.story.traits.HasTrait(miscTraits.MassOffset) && num > 0)
 				{
 					Trait MassOffset = p.story.traits.GetTrait(miscTraits.MassOffset);
 
@@ -56,7 +56,9 @@ namespace mostlytraits
 					}
 
 
-				}
+				}*/
+				num += p.GetStatValue(miscStats.mostlytraits_carry_mass_offset, true, -1);
+
 				if (p.def.race.Humanlike && p.health.hediffSet.HasHediff(miscHediffDefs.mostlytraits_installed_exoskeleton))
 				{
 

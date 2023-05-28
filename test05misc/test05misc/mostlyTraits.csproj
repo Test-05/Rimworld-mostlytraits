@@ -54,8 +54,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building_Quality.cs" />
+    <Compile Include="Thought_Stinky_Opinion_Worker.cs" />
+    <Compile Include="Thought_Sensitive_Mood_Based_Work_Stat.cs" />
+    <Compile Include="Thought_Sensitive_Random_Mood.cs" />
+    <Compile Include="Interaction_incite.cs" />
+    <Compile Include="Slacking_off.cs" />
+    <Compile Include="After_meal.cs" />
     <Compile Include="IngestionOutcomeDoer_end_inspiration.cs" />
-    <Compile Include="Thought_different_medical approach.cs" />
+    <Compile Include="Thought_Different_Medical_Approach.cs" />
     <Compile Include="Thought_bloodthirst.cs" />
     <Compile Include="Interaction_complain.cs" />
     <Compile Include="Interaction_DeepTalk.cs" />

@@ -23,7 +23,7 @@ namespace mostlytraits
 				}
 			}
 
-			else if (painTotal >= 0.1)
+			else if (painTotal >= 0.1 && painTotal <= 0.99)
 			{
 				if (p.health.hediffSet.HasHediff(miscHediffDefs.mostlytraits_blood_thirst_hurt_hediff))
 				{

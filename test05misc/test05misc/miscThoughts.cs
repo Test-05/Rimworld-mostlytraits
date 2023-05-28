@@ -21,6 +21,14 @@ namespace mostlytraits
         public static ThoughtDef mostlytraits_foodie_atelavishmeal;
         public static ThoughtDef mostlytraits_smoke_bad_mood;
         public static ThoughtDef mostlytraits_smoke_good_mood;
+        public static ThoughtDef mostlytraits_lost_table_enjoyer;
+        public static ThoughtDef mostlytraits_foodie_atesimplemeal;
+        public static ThoughtDef mostlytraits_foodie_ateterriblemeal;
+        public static ThoughtDef mostlytraits_foodie_ateawfulmeal;
+        public static ThoughtDef mostlytraits_foodie_aterawtasty;
+        public static ThoughtDef mostlytraits_foodie_aterawbad;
+        public static ThoughtDef mostlytraits_random_mood;
+
 
 
     }

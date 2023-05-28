@@ -27,7 +27,7 @@ namespace mostlytraits
                 if (initiator.story.traits.HasTrait(miscTraits.mostlytraits_gangster))
                 {
 
-                    __result *= 3.5f;
+                    __result *= 1.5f;
                 }
             }
         }
